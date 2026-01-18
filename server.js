@@ -35,7 +35,6 @@ app.get('/health', (req, res) => {
 app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to HRMS API',
-    docs: '/docs',
     health: '/health',
     version: '1.0.0',
   });
